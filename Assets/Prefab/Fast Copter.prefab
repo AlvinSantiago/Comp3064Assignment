@@ -100,7 +100,6 @@ MonoBehaviour:
   fireRate: 0
   copterHealth: 2
   enemyScore: 200
-  deathSound: {fileID: 0}
 --- !u!212 &212138166985238586
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -140,7 +139,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 10.666667, y: 10.666667}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
