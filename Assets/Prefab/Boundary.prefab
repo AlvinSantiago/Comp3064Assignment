@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1589901566027936}
+  m_IsPrefabParent: 1
+--- !u!1 &1589901566027936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4514166460002140}
+  - component: {fileID: 61375935359391804}
+  - component: {fileID: 114321313864777622}
+  - component: {fileID: 114841186469284584}
+  m_Layer: 9
+  m_Name: Boundary
+  m_TagString: Player Boundary
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4514166460002140
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589901566027936}
+  m_LocalRotation: {x: -0, y: -0.99961394, z: -0, w: -0.027785357}
+  m_LocalPosition: {x: 86.4, y: 4.1, z: 0.9}
+  m_LocalScale: {x: 1.434286, y: 10.659013, z: 0.05}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -183.18399, z: 0}
+--- !u!61 &61375935359391804
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589901566027936}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10}
+  m_EdgeRadius: 0
+--- !u!114 &114321313864777622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589901566027936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd37a1875fb2a5243806f4e048e3c2a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnRate: 5
+  enemyCopters:
+  - {fileID: 1025029736736288, guid: ed8a5e6d1a9ec7a449ace32e90db6e78, type: 2}
+  - {fileID: 1025029736736288, guid: ed8a5e6d1a9ec7a449ace32e90db6e78, type: 2}
+  - {fileID: 1114730940041428, guid: c007e2148c0cf1f48948d976f0032242, type: 2}
+  - {fileID: 1114730940041428, guid: c007e2148c0cf1f48948d976f0032242, type: 2}
+  enemyWaves: 4
+--- !u!114 &114841186469284584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589901566027936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f932fa243904ba2408f3ed139726792f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
